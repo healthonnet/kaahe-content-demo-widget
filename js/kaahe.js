@@ -77,7 +77,8 @@
           html += '</tr>';
         }
       }
-      html += '</td></tr></table></tbody>';
+      html += '</td></tr><tr><td>&nbsp;</td></tr><tr><td colspan="4">جميع الحقوق محفوظة © 2015 لموسوعة الملك عبدالله بن عبدالعزيز العربية للمحتوى الصحي.';
+      html += '</td></tr><tr><td>&nbsp;</td></tr></table></tbody>';
       return html;
     }
 
@@ -93,7 +94,8 @@
         html += '<img style="float: right" src="' + data[idContent].overviewLink + '" /><p>' + data[idContent].content + '</p>';
         html += '<p><a target="_blank" href="' + data[idContent].link + '">إقرأ المزيد</a></p>';
 
-        html += '</td></tr></table></tbody>';
+        html += '</td></tr><tr><td>&nbsp;</td></tr><tr><td colspan="4">جميع الحقوق محفوظة © 2015 لموسوعة الملك عبدالله بن عبدالعزيز العربية للمحتوى الصحي.';
+        html += '</td></tr><tr><td>&nbsp;</td></tr></table></tbody>';
         return html;
       }
     });
