@@ -14,6 +14,23 @@ Demo
 
 See the [demo](http://healthonnet.github.io/kaahe-content-demo-widget/)
 
+Usage
+-----
+
+You need to add :
+
+```html
+<!-- image for KAAHE Content -->
+<div class="leftHBnr">
+  <a id="kaahe-content" href="#">
+    <img alt="" title="" src="http://healthonnet.github.io/kaahe-content-demo-widget/images/kaahe-content.png" width="220" height="90" />
+  </a>
+</div>
+
+<!-- KAAHE content widget -->
+<script type="text/javascript" src="http://healthonnet.github.io/kaahe-content-demo-widget/js/kaahe.js"></script>
+```
+
 Developer
 ---------
 
